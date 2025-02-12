@@ -1,0 +1,28 @@
+{
+  "name": "candidate-info",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/app.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node dist/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+    "dotenv": "^16.4.5",
+    "papaparse": "^5.4.1",
+    "pg": "^8.13.0",
+    "uuid": "^10.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.5",
+    "@types/papaparse": "^5.3.14",
+    "@types/pg": "^8.11.10",
+    "@types/uuid": "^10.0.0",
+    "typescript": "^5.6.2"
+  }
+}
