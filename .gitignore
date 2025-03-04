@@ -4,6 +4,8 @@
 
 /.idea
 
+/data
+
 /dist
 
 *.js
